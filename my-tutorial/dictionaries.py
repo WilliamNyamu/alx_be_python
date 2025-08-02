@@ -61,6 +61,22 @@ print(second_dict)
 first_dict.clear()
 print(first_dict)
 
+company = {
+    "employee" : {
+        "name": "Maria",
+        "details": {
+            "age": 28,
+            "department": "Engineering"
+        }
+    }
+}
 
-# Practice test
-# A script to determine voting.
+# Accessing nested values
+print(company["employee"]["name"]) # Output: Maria
+print(company["employee"]["details"]["age"]) # Output 28
+
+# Safe Nested Access using .get()
+# We add the {} to serve as default values.
+department = company.get("employee", {}).get("details", {}).get("department")
+# If "employee is missing, it returns {}"
+print(department)
