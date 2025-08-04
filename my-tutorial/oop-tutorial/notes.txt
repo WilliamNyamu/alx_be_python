@@ -1,0 +1,24 @@
+Objects are like the things you see and interact with in everyday life (cars, dogs, etc.). Each object has properties (like color, size) and behaviors (like drive, bark).
+
+Classes: A class is like a blueprint or template for creating objects.
+It defines what properties an object will have(attributes)
+and what actions it can perform(methods)
+
+Encapsulation:
+Encapsulation means bundling data (attributes) and methods (functions)
+that operate on that data together within a class. It helps keep
+related things together and hides the inner workings of an object
+from the outside, showing only what's necessary.
+
+Inheritance:
+
+Inheritance is like passing down traits from parent to child.
+It allows a new class (child) to inherit properties and behaviors
+from an existing class (parent), promoting code re-usability.
+
+Polymorphism: 
+
+Polymorphism means many forms. It allows objects to take on 
+different forms or behaviors based on the context or the class 
+they belong to.
+
