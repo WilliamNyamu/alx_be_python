@@ -80,3 +80,8 @@ print(company["employee"]["details"]["age"]) # Output 28
 department = company.get("employee", {}).get("details", {}).get("department")
 # If "employee is missing, it returns {}"
 print(department)
+
+names = {"William": "Nyamu", "Samson": "Muriithi", "Emmanuel": "Kamau", "Isaac": "Munene"}
+for i, j in names.items():
+    print(i, j)
+

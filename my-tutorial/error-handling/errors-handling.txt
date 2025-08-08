@@ -1,0 +1,21 @@
+Common Exceptions:
+
+NameError: Occurs when a variable or function is used before it's defined
+TypeError: Raised when an operator is attempted on incompatible data types
+IndexError: Thrown when trying to access an element outside the list or sequence's index range.
+ZeroDivisionError: Occurs when attempting to divide by Zero
+ValueError: Indicated an inappropriate value passed to a function or operation
+
+try:
+  # Code that might raise an exception
+except ExceptionType:
+  # Code to handle the exception
+else:
+  # Code that executes if no exception occurs
+finally:
+  # Code that always executes, regardless of exceptions
+
+Creating Custom Exceptions
+ - Define a new class that inherits from the base Exception class
+   or its subclasses(e.g., ValueError, TypeError, etc.)
+ - Optionally, you can add custom attributes or methods to your exception class based on your requirements.
