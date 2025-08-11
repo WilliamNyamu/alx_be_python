@@ -1,0 +1,5 @@
+Inheritance is a mechanism where a new class(the child or subclass)
+derives attributes and methods from an existing class(the parent or superclass).
+This promotes code reusability and establishes a hierarchical relationship between Classes
+(an "is-a" relationship).
+

@@ -1,0 +1,47 @@
+Applications for file manipulation include:
+ - Reading data for algorithm training and testing
+ - Reading files to create generative art 
+ - Reporting
+ - Reading configuration files
+
+Files reside in the computer's secondary memory. 
+Secondary memory is persistent, which means that data  is not erased when
+a computer is powered off.
+Once you make changes to a file and save it, the changes are permanently
+written and saved in the secondary memory.
+
+To work with files, we need to lead them into the main memory first.
+Main memory is the temporary cache memory that holds requested data for a brief interval
+The data is lost when the computer is powered off.
+
+Files are loaded from secondary memory to the main memory
+and then processed by the CPU. Once the processing is done,
+the data is written back to the secondary memory.
+
+
+How File Hnadlers work
+ When we want to read or write a file, we must open it first.
+ Opening a file signals to the operating system to search for the file
+ by its name and ensure that it exists.
+
+ The OS returns a file handler if open is successful. Then we can interact
+ with our file through the file handler
+
+ The file handler does not contain the data itseld, it provides an interface
+ for handling the file operations
+
+There are four different methods (modes) for opening a file:
+
+"r" - Read - Default value. Opens a file for reading, error if the file does not exist
+
+"a" - Append - Opens a file for appending, creates the file if it does not exist
+
+"w" - Write - Opens a file for writing, creates the file if it does not exist
+
+"x" - Create - Creates the specified file, returns an error if the file exists
+
+In addition you can specify if the file should be handled as binary or text mode
+
+"t" - Text - Default value. Text mode
+
+"b" - Binary - Binary mode (e.g. images)

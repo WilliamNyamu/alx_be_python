@@ -1,0 +1,7 @@
+Means 'many forms'
+It enables a single method or operator to behave differently depending on 
+the object it is acting upon.
+
+This is often achieved through method overriding 
+(a subclass provides a specific implementation of a method 
+already defined in its superclass)
