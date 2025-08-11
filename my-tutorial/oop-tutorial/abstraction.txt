@@ -1,0 +1,9 @@
+Abstraction is a way of modeling a real-world object or phenomenon,
+limited to a specific context. The object is supposed to represent all
+relevant details on this context with a high
+accuracy and ignore all the rest 
+
+For example, an Airplane class could probably exist in both a simulator and a flight booking application
+But in the former case, it would hold details related to the actual flight, whereas
+in the latter class you would care only about the seat map and which seats are available
+ 
