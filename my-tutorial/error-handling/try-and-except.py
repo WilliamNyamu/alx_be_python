@@ -53,7 +53,7 @@ print("Now I continue running the code")
 
 w = 0
 try:
-    print(5/v) #Notice that I am not using w
+    print(5/w) #Notice that I am not using w
 except:
     print("An error occurred, but I don't know what it is")
 
