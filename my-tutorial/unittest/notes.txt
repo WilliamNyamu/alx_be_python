@@ -1,0 +1,27 @@
+It involves creating scenarios (test cases) to verify 
+the correctness of different parts of your program
+
+By writing tests, you can:
+    - Catch bugs early
+    - Improve code quality
+    - Increase confidence in code changes 
+
+Unit testing involves testing individual units of code,
+typically functions of classes. It ensures that each unit
+performs its intended behavior with specific inputs.
+
+- Python provides a built-in module called unittest for writing unit tests
+
+Test Cases:
+ - We define individual tests as test cases within a TestCase class
+ - Each test case has a specific method named with test_ followed by
+ a descriptive name.
+ -  Inside this method, we write code to:
+    - Set up the test environment (e.g., create objects, initialize data)
+    - Execute the code we want to test (e.g., call the function with specific inputs)
+    - Assert the expected outcome using self.assertEqual(actual, expected)
+
+Test Runners:
+ - Once you've written your test cases, you need a test runner to execute them.
+ - The unittest module provides a TextTestRuner class that can be used to run all
+  test cases within a test suite. 
