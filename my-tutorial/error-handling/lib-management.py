@@ -33,7 +33,7 @@ def borrow_book(name, quantity):
         book_inventory[name] -= quantity
         return f"Borrowing successful: {quantity} copies of {name}"
 
-for bk, qty in [("IDEO", 2),("Sprint", 3), ("Paradox", 1)]:
+for bk, qty in [("James", 2),("Sprint", 3), ("Paradox", 1)]:
     try:
         print(borrow_book(bk, qty))
     except (BookNotAvailableError, TooManyRequestedCopiesError) as e:

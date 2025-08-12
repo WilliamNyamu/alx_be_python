@@ -28,3 +28,9 @@ print(f"There are {count} lines in {fname}")
 fout = open('flower.txt', 'w')
 fout.write("This content would be added and existing would be discarded")
 fout.close()
+
+my_lst = ["William"]
+another_name = input("Enter another name: ").strip()
+my_lst.append(another_name)
+test_string = ' '.join(my_lst)
+print(test_string)
