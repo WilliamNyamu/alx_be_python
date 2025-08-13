@@ -67,3 +67,24 @@
 # Your goal is to think like a tester and identify as many relevant test cases as possible for each method.
 # Pay special attention to potential edge cases, such as division by zero, which could lead to unexpected behaviors if not properly handled.
 # Writing comprehensive tests not only helps ensure your code is working correctly but also improves your understanding of how the code operates under different conditions.
+
+class SimpleCalculator:
+    
+    def add(self, a, b):
+        """Return the sum of the numbers"""
+        return a + b
+    
+    def subtract(self, a, b):
+        """Return the subtraction of b from a """
+        return a - b
+    
+    def multiply(self, a, b):
+        """Return the multiplication of b and a """
+        return a * b
+    
+    def divide(self, a, b):
+        """Return the division of a and b"""
+        if b==0:
+            return None
+        else:
+            return a / b
