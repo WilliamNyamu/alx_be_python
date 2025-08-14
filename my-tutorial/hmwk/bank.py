@@ -13,7 +13,7 @@ class BankAccount:
         if 0 < amount < self.__account_balance:
             self.__account_balance -= amount
             return True
-        return False
+        return False # The pythonic way. Use this instead of nesting it with 'else'
 
     def display_balance(self):
         print(f"Current balance: ${self.__account_balance}")
