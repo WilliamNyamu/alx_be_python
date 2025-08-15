@@ -1,0 +1,8 @@
+Destructors (__del__):
+When you create an object in Python, it occupies memory to store
+its data and code. Objects are automatically destroyed (garbage collected)
+by Python when they are no longer in use or when the program exits
+
+The __del__ Method:
+You can define this method in your class to perform cleanup tasks
+or release resources held by the object before it is destroyed.
