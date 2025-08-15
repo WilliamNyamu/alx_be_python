@@ -6,3 +6,7 @@ by Python when they are no longer in use or when the program exits
 The __del__ Method:
 You can define this method in your class to perform cleanup tasks
 or release resources held by the object before it is destroyed.
+
+Important Note: Relying on destructors for critical tasks is generally not recommended 
+in Python as garbage collection is not deterministic. 
+Use context managers or the with statement for ensuring proper resource management.

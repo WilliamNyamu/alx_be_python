@@ -1,0 +1,9 @@
+Magic Methods
+Magic methods are special methods in Python 
+that start and end with double underscores (also known as dunder methods). 
+They allow you to define specific behaviors for your objects in various 
+contexts, such as arithmetic operations, comparisons, string representations, 
+and more. Here are some common examples:
+
+__str__: Defines how an object is represented as a string.
+__repr__: Defines the official string representation of an object.

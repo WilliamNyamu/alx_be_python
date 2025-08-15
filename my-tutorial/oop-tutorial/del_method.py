@@ -17,4 +17,8 @@ print(file_obj.read_data())
 # Object is no longer needed, it will be garbage collected, and 
 # __del__ method will be called automatically to close the file
 
+# Important Note: Relying on destructors for critical tasks is generally not recommended 
+# in Python as garbage collection is not deterministic. 
+# Use context managers or the with statement for ensuring proper resource management.
+
     
