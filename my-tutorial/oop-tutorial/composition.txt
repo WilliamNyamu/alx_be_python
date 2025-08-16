@@ -1,0 +1,12 @@
+Composition is a much more elegant way of using method and attributes 
+from a parent class in a child class
+
+The problem with inheritance is that a child inherits all the attributes and Methods
+
+
+With Composition, we can explicitly choose what is inherited from the parent class.
+
+Composition prevents the diamond problem from occuring
+Inheritance = Take everything
+Composition = Take what you need, and leave the rest 
+
