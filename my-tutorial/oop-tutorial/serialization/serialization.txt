@@ -1,0 +1,10 @@
+The process of converting a Python object into a format
+that can be easily stored or transmitted, such as a byte stream
+
+Deserialization is the reverse process, where the stored data 
+is converted back into its original Python object.
+
+These processes are essential for tasks like saving program state, 
+sending data over over a network, persisting data to a file.
+
+
